@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.thinkgem.jeesite</groupId>
-	<artifactId>jeesite</artifactId>
-	<version>1.2.6</version>
+	<artifactId>jeeframe</artifactId>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
 	
-	<name>JeeSite</name>
-	<url>http://thinkgem.github.com/jeesite</url>
+	<name>JeeFrame</name>
+	<url>https://github.com/renfeihn/jeeframe</url>
 	<inceptionYear>2012-2014</inceptionYear>
 	
 	<!-- 项目属性 -->
@@ -51,7 +51,7 @@
 		<jdk.version>1.6</jdk.version>
 		<tomcat.version>2.2</tomcat.version>
 		<jetty.version>7.6.14.v20131031</jetty.version>
-		<webserver.port>8181</webserver.port>
+		<webserver.port>8090</webserver.port>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<downloadSources>true</downloadSources>
 		
@@ -676,7 +676,7 @@
 
 	<build>
 		<outputDirectory>${project.basedir}/src/main/webapp/WEB-INF/classes/</outputDirectory>
-		<finalName>jeesite</finalName>
+		<finalName>jeeframe</finalName>
 		<plugins>
 			<!-- Compiler 插件, 设定JDK版本 -->
 			<plugin>
@@ -881,16 +881,15 @@
 <!-- 					<uriEncoding>${project.build.sourceEncoding}</uriEncoding> -->
 <!-- 				</configuration> -->
 <!-- 			</plugin> -->
-			<plugin>  
+			<plugin>
 	            <groupId>org.apache.tomcat.maven</groupId>
 		        <artifactId>tomcat7-maven-plugin</artifactId>
-		        <version>2.2</version> 
+		        <version>${tomcat.version}</version> 
 	            <configuration>
-	                <url>http://localhost:80/manager/text</url>
-<!-- 	                <server>tomcat7</server> -->
+	                <url>http://localhost:8090/manager/text</url>
 	                <username>admin</username>  
 	                <password>password</password>  
-	                <path>/jeesite</path>  
+	                <path>/${project.artifactId}</path>  
 	            </configuration>  
 	       </plugin> 
 	       
@@ -1036,9 +1035,9 @@
 	<!-- 开发者信息 -->
 	<developers>  
 		<developer>
-			<id>thinkgem</id>
-			<name>WangZhen</name>
-			<email>thinkgem at 163.com</email>
+			<id>renfeihn</id>
+			<name>RenFei</name>
+			<email>renfei_hn at 163.com</email>
 			<roles><role>Project lead</role></roles>
 			<timezone>+8</timezone>
 		</developer>
