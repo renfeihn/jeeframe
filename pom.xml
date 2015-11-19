@@ -672,6 +672,13 @@
 			</exclusions>
 		</dependency> -->
 		
+		<!--　集成 mpsdk4j 微信框架 -->
+		<dependency>
+			<groupId>io.github.elkan1788</groupId>
+			<artifactId>mpsdk4j</artifactId>
+			<version>2.b.1</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
