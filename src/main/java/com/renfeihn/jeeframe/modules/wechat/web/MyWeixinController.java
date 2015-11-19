@@ -21,9 +21,9 @@ import io.github.elkan1788.mpsdk4j.core.WechatKernel;
 　* @date 2015年11月19日
  */
 @Controller
-@RequestMapping(value = "${frontPath}/weixin")
+@RequestMapping(value = "${frontPath}/my/weixin")
 @SuppressWarnings("unchecked")
-public class WeixinController extends BaseController{
+public class MyWeixinController extends BaseController{
 
 	// 微信消息内核
 	protected static WechatKernel _wk = new WechatKernel();
