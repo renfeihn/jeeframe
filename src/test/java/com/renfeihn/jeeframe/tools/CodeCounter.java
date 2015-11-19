@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.tools;
 
 import java.io.BufferedReader;

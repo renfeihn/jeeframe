@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.act.web;
 
 import java.io.IOException;

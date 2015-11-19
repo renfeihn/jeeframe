@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.act.utils;
 
 import java.lang.annotation.Annotation;

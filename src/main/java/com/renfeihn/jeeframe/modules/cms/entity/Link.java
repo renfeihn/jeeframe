@@ -1,7 +1,6 @@
 /**
 \ * Copyright &copy; 2012-2013 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
- */
-package com.renfeihn.jeeframe.modules.cms.entity;
+ */package com.renfeihn.jeeframe.modules.cms.entity;
 
 import java.util.Date;
 

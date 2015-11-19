@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.sys.service;
 
 import java.util.Collection;

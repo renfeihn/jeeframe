@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.act.service.ext;
 
 import java.util.List;

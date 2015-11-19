@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2005-2012 springside.org.cn
- */
 package com.renfeihn.jeeframe.common.beanvalidator;
 
 import java.util.List;

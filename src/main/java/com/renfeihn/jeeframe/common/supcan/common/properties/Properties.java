@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.supcan.common.properties;
 
 import java.util.List;

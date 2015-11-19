@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.supcan;
 
 import java.lang.reflect.Method;

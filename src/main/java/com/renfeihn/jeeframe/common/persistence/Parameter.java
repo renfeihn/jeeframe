@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.persistence;
 
 import java.util.HashMap;

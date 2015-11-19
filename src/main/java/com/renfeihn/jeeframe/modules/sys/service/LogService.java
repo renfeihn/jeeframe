@@ -1,7 +1,6 @@
 /**
  * Copyright &copy; 2012-2013 <a href="httparamMap://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
- */
-package com.renfeihn.jeeframe.modules.sys.service;
+ */package com.renfeihn.jeeframe.modules.sys.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

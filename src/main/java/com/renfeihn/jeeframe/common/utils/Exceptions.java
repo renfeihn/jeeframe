@@ -1,7 +1,6 @@
 /**
  * Copyright (c) 2005-2012 springside.org.cn
- */
-package com.renfeihn.jeeframe.common.utils;
+ */package com.renfeihn.jeeframe.common.utils;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

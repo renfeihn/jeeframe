@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.gen.web;
 
 import javax.servlet.http.HttpServletRequest;

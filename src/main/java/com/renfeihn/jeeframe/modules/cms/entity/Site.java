@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.cms.entity;
 
 import org.apache.commons.lang3.StringUtils;

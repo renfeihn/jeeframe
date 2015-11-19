@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.supcan.common.properties;
 
 import com.renfeihn.jeeframe.common.supcan.annotation.common.properties.SupBackground;

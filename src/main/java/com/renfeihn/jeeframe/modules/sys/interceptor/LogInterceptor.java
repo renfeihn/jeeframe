@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.sys.interceptor;
 
 import java.text.SimpleDateFormat;

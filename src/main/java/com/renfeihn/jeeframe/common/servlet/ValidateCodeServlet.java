@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.servlet;
 
 import java.awt.Color;

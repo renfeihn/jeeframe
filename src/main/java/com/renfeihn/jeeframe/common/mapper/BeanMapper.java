@@ -1,7 +1,6 @@
 /**
  * Copyright (c) 2005-2012 springside.org.cn
- */
-package com.renfeihn.jeeframe.common.mapper;
+ */package com.renfeihn.jeeframe.common.mapper;
 
 import java.util.Collection;
 import java.util.List;

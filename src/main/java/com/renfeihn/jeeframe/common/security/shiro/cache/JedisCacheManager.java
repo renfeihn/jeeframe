@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.security.shiro.cache;
 
 import java.util.Collection;

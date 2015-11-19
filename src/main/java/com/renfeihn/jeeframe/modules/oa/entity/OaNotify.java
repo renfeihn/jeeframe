@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.oa.entity;
 
 import java.util.List;

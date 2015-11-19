@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.cms.dao;
 
 import java.util.List;

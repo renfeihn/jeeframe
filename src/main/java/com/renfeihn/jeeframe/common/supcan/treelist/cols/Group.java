@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.supcan.treelist.cols;
 
 import java.util.List;

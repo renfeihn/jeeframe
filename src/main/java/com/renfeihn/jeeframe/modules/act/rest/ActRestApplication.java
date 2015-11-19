@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.act.rest;
 
 import org.activiti.rest.common.api.DefaultResource;

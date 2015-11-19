@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.test.entity;
 
 import org.hibernate.validator.constraints.Length;

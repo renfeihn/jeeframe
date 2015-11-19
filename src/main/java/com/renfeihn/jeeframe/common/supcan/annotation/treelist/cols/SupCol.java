@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.supcan.annotation.treelist.cols;
 
 import java.lang.annotation.ElementType;

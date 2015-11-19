@@ -12,8 +12,7 @@
  *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  *    See the License for the specific language governing permissions and
  *    limitations under the License.
- */
-package org.mybatis.spring;
+ */package org.mybatis.spring;
 
 import static org.springframework.util.Assert.notNull;
 import static org.springframework.util.ObjectUtils.isEmpty;

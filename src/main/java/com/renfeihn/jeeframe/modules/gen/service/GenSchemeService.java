@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.gen.service;
 
 import java.util.List;

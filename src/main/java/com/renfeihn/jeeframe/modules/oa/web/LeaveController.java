@@ -1,7 +1,6 @@
 /**
  * There are <a href="https://github.com/thinkgem/jeesite">JeeSite</a> code generation
- */
-package com.renfeihn.jeeframe.modules.oa.web;
+ */package com.renfeihn.jeeframe.modules.oa.web;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.gen.entity;
 
 import java.util.List;

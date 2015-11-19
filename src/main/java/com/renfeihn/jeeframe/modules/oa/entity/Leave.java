@@ -1,7 +1,6 @@
 /**
  * There are <a href="https://github.com/thinkgem/jeesite">JeeSite</a> code generation
- */
-package com.renfeihn.jeeframe.modules.oa.entity;
+ */package com.renfeihn.jeeframe.modules.oa.entity;
 
 import java.util.Date;
 import java.util.List;

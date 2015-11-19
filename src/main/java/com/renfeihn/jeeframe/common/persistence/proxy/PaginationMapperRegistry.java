@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.persistence.proxy;
 
 import org.apache.ibatis.binding.BindingException;

@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.persistence.annotation;
 
 import java.lang.annotation.Documented;

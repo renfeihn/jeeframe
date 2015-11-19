@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.mapper;
 
 import java.io.IOException;

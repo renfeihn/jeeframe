@@ -1,7 +1,6 @@
 /**
  * Copyright (c) 2005-2012 springside.org.cn
- */
-package com.renfeihn.jeeframe.common.security;
+ */package com.renfeihn.jeeframe.common.security;
 
 import java.io.UnsupportedEncodingException;
 import java.security.GeneralSecurityException;

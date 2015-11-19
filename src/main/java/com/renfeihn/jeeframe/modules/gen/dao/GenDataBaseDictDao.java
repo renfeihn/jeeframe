@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.gen.dao;
 
 import java.util.List;

@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.service;
 
 import java.util.List;

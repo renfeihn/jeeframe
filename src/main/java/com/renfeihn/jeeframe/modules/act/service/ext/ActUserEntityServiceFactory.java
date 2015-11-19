@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.act.service.ext;
 
 import org.activiti.engine.impl.interceptor.Session;

@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.security.shiro;
 
 import org.apache.shiro.subject.Subject;

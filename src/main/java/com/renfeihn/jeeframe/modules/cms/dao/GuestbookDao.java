@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.cms.dao;
 
 import com.renfeihn.jeeframe.common.persistence.CrudDao;

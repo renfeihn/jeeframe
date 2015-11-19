@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.test.entity;
 
 import com.renfeihn.jeeframe.modules.sys.entity.User;

@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.supcan.annotation.common.fonts;
 
 import java.lang.annotation.ElementType;

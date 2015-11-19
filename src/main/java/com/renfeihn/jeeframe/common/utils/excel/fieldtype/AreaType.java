@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.utils.excel.fieldtype;
 
 import com.renfeihn.jeeframe.common.utils.StringUtils;

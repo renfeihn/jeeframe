@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.persistence.dialect;
 
 /**

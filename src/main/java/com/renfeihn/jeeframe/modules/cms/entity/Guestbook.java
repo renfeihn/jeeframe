@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.modules.cms.entity;
 
 import java.util.Date;

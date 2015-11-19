@@ -1,4 +1,3 @@
-
 package com.renfeihn.jeeframe.common.supcan.freeform;
 
 import com.renfeihn.jeeframe.common.supcan.common.Common;

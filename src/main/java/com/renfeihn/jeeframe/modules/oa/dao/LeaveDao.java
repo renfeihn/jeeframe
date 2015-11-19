@@ -1,7 +1,6 @@
 /**
  * There are <a href="https://github.com/thinkgem/jeesite">JeeSite</a> code generation
- */
-package com.renfeihn.jeeframe.modules.oa.dao;
+ */package com.renfeihn.jeeframe.modules.oa.dao;
 
 import com.renfeihn.jeeframe.common.persistence.CrudDao;
 import com.renfeihn.jeeframe.common.persistence.annotation.MyBatisDao;
