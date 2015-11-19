@@ -55,6 +55,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<downloadSources>true</downloadSources>
 		
+		<!-- mpsdk4j setting 微信包 -->
+		<mpsdk4j.version>2.b.1</mpsdk4j.version>
+		
 	</properties>
 	
 	<!-- 设定主仓库，按设定顺序进行查找。 -->
@@ -676,9 +679,8 @@
 		<dependency>
 			<groupId>io.github.elkan1788</groupId>
 			<artifactId>mpsdk4j</artifactId>
-			<version>2.b.1</version>
+			<version>${mpsdk4j.version}</version>
 		</dependency>
-		
 	</dependencies>
 
 	<build>
@@ -764,47 +766,6 @@
 				</executions> -->
 			</plugin>
 			
-			<!-- 混淆代码
-			<plugin>
-				<groupId>com.github.wvengen</groupId>
-				<artifactId>proguard-maven-plugin</artifactId>
-				<version>2.0.6</version>
-				<executions>
-					<execution>
-						<phase>prepare-package</phase>
-						<goals>
-							<goal>proguard</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-			        <obfuscate>true</obfuscate>
-			    	<options>
-                        <option>-injars ${project.build.directory}/${project.artifactId}/WEB-INF/lib/jeesite.jar</option>
-                    </options>
-                    <outjar>${project.artifactId}/WEB-INF/lib/jeesite_out.jar</outjar>
-                    <outputDirectory>${project.build.directory}</outputDirectory>
-			        <proguardInclude>${basedir}/proguard.cfg</proguardInclude>
-					<source>${jdk.version}</source>
-					<target>${jdk.version}</target>
-					<encoding>${project.build.sourceEncoding}</encoding>
-					<libs>
-						<lib>${java.home}/lib/rt.jar</lib>
-						<lib>${java.home}/lib/jsse.jar</lib>
-			            <lib>${java.home}/lib/jce.jar</lib>
-					</libs>
-			        <addMavenDescriptor>false</addMavenDescriptor>
-				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>net.sf.proguard</groupId>
-						<artifactId>proguard-base</artifactId>
-						<version>4.9</version>
-						<scope>runtime</scope>
-					</dependency>
-				</dependencies>
-			</plugin> -->
-
 			<!-- war 打包插件, 设定war包名称不带版本号 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
