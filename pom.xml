@@ -14,7 +14,7 @@
 	
 	<!-- 项目属性 -->
 	<properties>
-		
+	
 		<!-- main version setting -->
 		<spring.version>4.0.8.RELEASE</spring.version>
 		<validator.version>5.1.1.Final</validator.version>
@@ -348,7 +348,7 @@
 		</dependency>
 		<!-- CACHE end -->
 		
-		<!-- SECURITY begin -->
+		<!-- security begin -->
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-core</artifactId>
@@ -380,7 +380,7 @@
 			<artifactId>shiro-ehcache</artifactId>
 			<version>${shiro.version}</version>
 		</dependency>
-		<!-- SECURITY end -->
+		<!-- security end -->
 		
 		<!-- Activiti -->
 		<dependency>
@@ -517,12 +517,12 @@
 			<version>${jackson.version}</version>
 		</dependency>
 		
-		<!-- fastjson json
-		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>fastjson</artifactId>
-			<version>${fastjson.version}</version>
-		</dependency> -->
+		<!-- fastjson json -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.alibaba</groupId> -->
+<!-- 			<artifactId>fastjson</artifactId> -->
+<!-- 			<version>${fastjson.version}</version> -->
+<!-- 		</dependency> -->
 		
 		<!-- xstream xml -->
 		<dependency>
@@ -648,15 +648,6 @@
 			<artifactId>UserAgentUtils</artifactId>
 			<version>1.13</version>
 		</dependency>
-		
-		<!-- 自定义jar依赖包
-		<dependency>
-			<groupId>com.renfeihn.jeeframe</groupId>
-			<artifactId>test-core</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/test-core-1.0.jar</systemPath>
-		</dependency> -->
 		
 		<!-- 使用 Jetty JSP引擎 
 		<dependency>
