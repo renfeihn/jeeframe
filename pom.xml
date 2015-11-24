@@ -55,8 +55,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<downloadSources>true</downloadSources>
 		
+		<!-- jota-time 2.9.1 -->
+		<jota-time.version>2.9.1</jota-time.version>
+		
 		<!-- mpsdk4j setting 微信包 -->
 		<mpsdk4j.version>2.b.1</mpsdk4j.version>
+		
 		
 	</properties>
 	
@@ -665,6 +669,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency> -->
+		
+		<!-- 日期计算 -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>${jota-time.version}</version>
+		</dependency>
 		
 		<!--　集成 mpsdk4j 微信框架 -->
 		<dependency>
