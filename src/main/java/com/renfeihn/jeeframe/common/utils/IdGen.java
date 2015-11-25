@@ -52,6 +52,9 @@ public class IdGen implements IdGenerator, SessionIdGenerator {
 		return IdGen.uuid();
 	}
 
+	/**
+	 * Shiro session　ID 生成
+	 */
 	@Override
 	public Serializable generateId(Session session) {
 		return IdGen.uuid();
