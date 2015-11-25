@@ -19,3 +19,5 @@
 <link href="${ctxStatic}/common/jeesite.min.css" type="text/css" rel="stylesheet" />
 <script src="${ctxStatic}/common/jeesite.min.js" type="text/javascript"></script>
 <script type="text/javascript">var ctx = '${ctx}', ctxStatic='${ctxStatic}';</script>
+
+<script src="${ctxStatic}/webSocket/sockjs-0.3.4.min.js" type="text/javascript"></script>

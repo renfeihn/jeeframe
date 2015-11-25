@@ -144,6 +144,27 @@
 			return false;
 		}// </c:if>
 	</script>
+	
+        <script>
+            var websocket;
+            if ('WebSocket' in window) {
+                websocket = new WebSocket("ws://renfeisx.oicp.net:8090/jeeframe/websocket/chatMessageServer.do");
+            } else if ('MozWebSocket' in window) {
+                websocket = new MozWebSocket("ws://renfeisx.oicp.net:8090/jeeframe/websocket/chatMessageServer.do");
+            } else {
+                websocket = new SockJS("http://renfeisx.oicp.net:8090/jeeframe/websocket/sockjs/chatMessageServer.do");
+            }
+            websocket.onopen = function (evnt) {
+            };
+            websocket.onmessage = function (evnt) {
+            	alert(evnt.data);
+            };
+            websocket.onerror = function (evnt) {
+            };
+            websocket.onclose = function (evnt) {
+            }
+ 
+     	</script>
 </head>
 <body>
 	<div id="main">
@@ -160,6 +181,9 @@
 						</ul>
 						<!--[if lte IE 6]><script type="text/javascript">$('#themeSwitch').hide();</script><![endif]-->
 					</li>
+					
+					<li><a id="a_msg_id">测试</a></li>
+					
 					<li id="userInfo" class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="#" title="个人信息">您好, ${fns:getUser().name}&nbsp;<span id="notifyNum" class="label label-info hide"></span></a>
 						<ul class="dropdown-menu">
