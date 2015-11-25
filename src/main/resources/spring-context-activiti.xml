@@ -11,9 +11,11 @@
 	<context:property-placeholder ignore-unresolvable="true" location="classpath:jeeframe.properties" />
 	
 	<!-- Activiti begin -->
+	<!-- 流程引擎配置 与spring集成使用 SpringProcessEngineConfiguration -->
 	<bean id="processEngineConfiguration" class="org.activiti.spring.SpringProcessEngineConfiguration">
 		<property name="dataSource" ref="dataSource" />
 		<property name="transactionManager" ref="transactionManager" />
+		<!-- 可以配置发布时匹配多个资源处理方式 -->
 		<property name="deploymentResources" value="classpath*:/act/deployments/**/*.bar"/>
 		<property name="databaseSchemaUpdate" value="true" />
 		<property name="jobExecutorActivate" value="false" />
