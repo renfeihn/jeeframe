@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : 17.0.0.1
+Source Server         : 127.0.0.1
 Source Server Version : 50144
 Source Host           : localhost:3306
 Source Database       : JeeFrame
