@@ -14,7 +14,7 @@
 	
 	<!-- 项目属性 -->
 	<properties>
-		
+	
 		<!-- main version setting -->
 		<spring.version>4.0.8.RELEASE</spring.version>
 		<validator.version>5.1.1.Final</validator.version>
@@ -48,15 +48,19 @@
 		<mssql.driver.version>1.3.1</mssql.driver.version>
 	    
 		<!-- environment setting -->
-		<jdk.version>1.6</jdk.version>
+		<jdk.version>1.7</jdk.version>
 		<tomcat.version>2.2</tomcat.version>
 		<jetty.version>7.6.14.v20131031</jetty.version>
 		<webserver.port>8090</webserver.port>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<downloadSources>true</downloadSources>
 		
+		<!-- jota-time 2.9.1 -->
+		<jota-time.version>2.9.1</jota-time.version>
+		
 		<!-- mpsdk4j setting 微信包 -->
 		<mpsdk4j.version>2.b.1</mpsdk4j.version>
+		
 		
 	</properties>
 	
@@ -188,6 +192,18 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-tx</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		
+		<!-- spring websocket -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-websocket</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-messaging</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 			
@@ -348,7 +364,7 @@
 		</dependency>
 		<!-- CACHE end -->
 		
-		<!-- SECURITY begin -->
+		<!-- security begin -->
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-core</artifactId>
@@ -380,7 +396,7 @@
 			<artifactId>shiro-ehcache</artifactId>
 			<version>${shiro.version}</version>
 		</dependency>
-		<!-- SECURITY end -->
+		<!-- security end -->
 		
 		<!-- Activiti -->
 		<dependency>
@@ -517,12 +533,12 @@
 			<version>${jackson.version}</version>
 		</dependency>
 		
-		<!-- fastjson json
-		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>fastjson</artifactId>
-			<version>${fastjson.version}</version>
-		</dependency> -->
+		<!-- fastjson json -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.alibaba</groupId> -->
+<!-- 			<artifactId>fastjson</artifactId> -->
+<!-- 			<version>${fastjson.version}</version> -->
+<!-- 		</dependency> -->
 		
 		<!-- xstream xml -->
 		<dependency>
@@ -649,15 +665,6 @@
 			<version>1.13</version>
 		</dependency>
 		
-		<!-- 自定义jar依赖包
-		<dependency>
-			<groupId>com.renfeihn.jeeframe</groupId>
-			<artifactId>test-core</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/test-core-1.0.jar</systemPath>
-		</dependency> -->
-		
 		<!-- 使用 Jetty JSP引擎 
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
@@ -675,12 +682,20 @@
 			</exclusions>
 		</dependency> -->
 		
+		<!-- 日期计算 -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>${jota-time.version}</version>
+		</dependency>
+		
 		<!--　集成 mpsdk4j 微信框架 -->
 		<dependency>
 			<groupId>io.github.elkan1788</groupId>
 			<artifactId>mpsdk4j</artifactId>
 			<version>${mpsdk4j.version}</version>
 		</dependency>
+		
 	</dependencies>
 
 	<build>

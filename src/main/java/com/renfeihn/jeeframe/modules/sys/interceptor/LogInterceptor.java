@@ -20,8 +20,7 @@ import com.renfeihn.jeeframe.modules.sys.utils.LogUtils;
  */
 public class LogInterceptor extends BaseService implements HandlerInterceptor {
 
-	private static final ThreadLocal<Long> startTimeThreadLocal =
-			new NamedThreadLocal<Long>("ThreadLocal StartTime");
+	private static final ThreadLocal<Long> startTimeThreadLocal = new NamedThreadLocal<Long>("ThreadLocal StartTime");
 	
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, 
